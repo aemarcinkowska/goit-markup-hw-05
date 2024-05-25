@@ -818,7 +818,7 @@ background-color: #31d0aa;
 
 
 
-.checkbox-div:checked .icon-label {
+.iconlabel:focus-within {
     fill: #4d5ae5;
 }
 
