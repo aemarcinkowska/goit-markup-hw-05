@@ -627,7 +627,8 @@ background-color: #31d0aa;
 /*************** STOPKA KONIEC *****************/
 
 /*************** MODAL ************************/
-.modal-div {
+
+.modal-div-background {
     position: fixed;
     top: 0;
     left: 0;
@@ -816,6 +817,8 @@ background-color: #31d0aa;
     background-color: #4d5ae5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+
 }
 
 /*************** MODAL KONIEC *****************/
