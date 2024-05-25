@@ -812,6 +812,25 @@ background-color: #31d0aa;
     fill: #f4f4fd;
 }
 
+
+
+
+
+
+
+.checkbox-input:focus + .label-checkbox .icon-label {
+    fill: #4d5ae5;
+}
+
+
+
+
+
+
+
+
+
+
 .link-checkbox {
     color: #4d5ae5;
 }
