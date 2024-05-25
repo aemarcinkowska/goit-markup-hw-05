@@ -818,7 +818,7 @@ background-color: #31d0aa;
 
 
 
-.checkbox-input:focus + .label-checkbox  {
+.checkbox-input:focus {
     fill: #4d5ae5;
 }
 
