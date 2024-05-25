@@ -653,6 +653,10 @@ background-color: #31d0aa;
 
 }
 
+.modal-item {
+    margin-bottom: 8px;
+}
+
 .button-modal {
     position: absolute;
     top: 24px;
@@ -730,7 +734,7 @@ background-color: #31d0aa;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.input-modal:focus {
+.input-modal:focus .icon-label {
     border-color: #4D5AE5;
 }
 
@@ -742,9 +746,9 @@ background-color: #31d0aa;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-label:focus {
+/* .icon-label:focus {
     fill: #4D5AE5; 
-}
+} */
 
 .area-div {
     margin-bottom: 16px;
