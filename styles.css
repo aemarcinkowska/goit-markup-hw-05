@@ -583,19 +583,25 @@ background-color: #31d0aa;
 }
 
 
+.button-subscribe:hover {
+    background-color: #404bbf;
+}
+
+
+.button-subscribe:focus {
+    background-color: #404bbf;
+}
+
+
 .point:focus { 
     background-color: #31d0aa;
     }
 
 .form-footer {
     display: flex;
+    gap: 24px;
 }
-
-
-    .label-footer {
-        gap: 24px;
-      }
-      
+     
     .input-footer {
       width: 264px;
       height: 40px;
