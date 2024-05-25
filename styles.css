@@ -719,6 +719,7 @@ background-color: #31d0aa;
     margin-bottom: 4px;
 }
 
+
 .input-modal-div {
     position: relative;
 }
@@ -740,6 +741,10 @@ background-color: #31d0aa;
 
 .input-modal:focus {
     border-color: #4D5AE5;
+}
+
+.input-modal:focus {
+    fill: #4d5ae5;
 }
 
 .icon-label {
@@ -801,7 +806,7 @@ background-color: #31d0aa;
     fill: transparent;
 }
 
-.label-checkbox:checked /*.span-checkbox*/ {
+.label-checkbox:checked {
     color: #404bbf;
     border: none;
     fill: #f4f4fd;
