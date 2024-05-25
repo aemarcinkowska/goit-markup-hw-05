@@ -1,0 +1,602 @@
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    }
+
+img {
+    display: block;
+}
+    
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: white;
+}
+
+
+.container {
+    width: 1158px; 
+    margin: 0 auto;
+    padding: 0 15px;
+   }
+
+
+/*************** NAGŁÓWEK ******************/
+
+.header {
+    height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.flex-header {    
+    justify-content: space-between;
+    display: flex;                
+} 
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.web-logo {
+    color: #4d5ae5;
+    margin-right: 76px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.studio-logo {
+    color: #2e2f42;
+
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.link-in-header {
+    display:inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.link-in-header:hover {
+    color: #404bbf;
+}
+
+.link-in-header:focus {
+    color: #404bbf;
+}
+
+
+.link-header-one {
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.link-header-one::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.address {
+    font-style: normal;
+    display: flex;
+    margin-top: 24px;
+}
+
+.address-class {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.address-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    display: flex;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-list:hover {
+    color: #404bbf;
+}
+
+.address-list:focus {
+    color: #404bbf; 
+}
+
+/*************** NAGŁÓWEK KONIEC **************/
+
+
+
+
+/************* SEKCJA NR 1 ******************/
+
+.section-one-css {
+    background-color: #2e2f42;
+    padding: 188px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 1440px;
+    margin: auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.jpg); 
+}
+
+.head-one-css {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.button {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: white;
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    align-items: center;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.button:hover {
+    background-color: #404bbf;
+}
+
+.button:focus {
+    background-color: #404bbf;
+}
+
+/************* SEKCJA NR 1 KONIEC ******************/
+
+
+
+/************* SEKCJA NR 2 ******************/
+
+.visually-hidden {  
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0;   
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow: hidden;
+}
+
+
+.head-section-two {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.section-two-css {
+    padding: 120px 0;
+ }
+
+
+.list-item-section-two {
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+    list-style-type: none;
+    justify-content: space-between;
+} 
+
+.section-two-list {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.list-second-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.icon {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
+
+/************* SEKCJA NR 2 KONIEC ******************/
+
+
+
+
+/************* SEKCJA NR 3 ******************/
+
+.section-third-css {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+    justify-items: center;
+
+}
+
+.section-third-list {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+ }
+
+.head-section-third {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.listitem {
+    background-color: white;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px; 
+
+}
+
+.name-div {
+    padding: 32px 0px;
+
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+} 
+
+.media-item {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    list-style-type: none;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    fill: #f4f4fd;
+}
+
+
+
+.media-list {
+    display: flex;
+    justify-content: center; 
+    gap: 24px;
+    padding: 8px 16px;
+}
+
+.media-link:hover {
+    background-color: #404bbf;
+}
+
+.media-link:focus {
+    background-color: #404bbf;
+}
+
+
+.media-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+/************* SEKCJA NR 3 KONIEC ******************/
+
+
+/************* SEKCJA NR 4 ******************/
+
+.head-fourth {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.section-fourth-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.section-fourth-css {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.listitem-fourth {
+    width: calc((100% - 48px) / 3);
+    margin: 0 auto;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.listitem-fourth:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    cursor: pointer;
+}
+
+
+.second-name-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;          
+} 
+
+.name-second {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+.paragraph-fourth-box {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.box:hover .paragraph-fourth-box {
+    transform: translateY(0);
+}
+
+
+
+/************* SEKCJA NR 4 KONIEC ******************/
+
+
+
+
+/*************** STOPKA *****************/
+
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+
+}
+
+.p-footer {
+    color:#f4f4fd;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    max-width: 264px;
+
+}
+
+.web-logo-footer {
+    color: #4d5ae5;
+    margin-right: 76px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.studio-logo-footer {
+    color: #f4f4fd;
+}
+
+.div-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.logoandparagraph {
+    margin-right: 120px;
+
+}
+.footer-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px; 
+}
+
+
+.media-ul {
+    display: flex; 
+    gap: 16px; 
+    height: 40px;
+    list-style-type: none;
+
+}
+
+.icon-footer {
+    fill: #f4f4fd;
+
+}
+
+.point {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    width: 40px;
+    cursor: pointer;
+}
+
+    
+.point:hover {
+background-color: #31d0aa; 
+}
+
+
+.subscribe-div {
+    display: flex;
+}
+
+.subscribe-p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px; 
+    width: 77px;
+    height: 24px;
+}
+
+.button-subscribe {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: white;
+    cursor: pointer;
+    padding: 8px 24px;
+    border-radius: 4px;
+    display: block;
+    min-width: 165px;
+    height: 40px;
+    border: none;
+    align-items: center;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.point:focus { 
+    background-color: #31d0aa;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 8px;
+      }
+      
+      input {
+        padding: 4px;
+        font-family: inherit;
+      }
+
+/*************** STOPKA KONIEC *****************/
