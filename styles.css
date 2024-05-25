@@ -587,11 +587,16 @@ background-color: #31d0aa;
     background-color: #31d0aa;
     }
 
-    .label-1 {
+.form-footer {
+    display: flex;
+}
+
+
+    .label-footer {
         gap: 24px;
       }
       
-    .input-1 {
+    .input-footer {
       width: 264px;
       height: 40px;
       border: 1px solid #ffffff;
