@@ -194,6 +194,7 @@ body {
     align-items: center;
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 }
 
@@ -561,6 +562,8 @@ background-color: #31d0aa;
     margin-bottom: 16px; 
     width: 77px;
     height: 24px;
+    margin-bottom: 16px;
+    padding-left: 80px;
 }
 
 .button-subscribe {
@@ -595,15 +598,16 @@ background-color: #31d0aa;
 
 .point:focus { 
     background-color: #31d0aa;
-    }
+}
 
-    .form-footer {
-       display: flex;
-          gap: 24px;
 
+.form-footer {
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
 }
      
-    .input-footer {
+.input-footer {
       width: 264px;
       height: 40px;
       border: 1px solid #ffffff;
@@ -618,13 +622,13 @@ background-color: #31d0aa;
       }
 
 
-      input::placeholder {
+input::placeholder {
         color: #ffffff;
       }
 
-      .icon-subscribe {
-        margin-left: 16px;
-      }
+.icon-subscribe {
+    margin-left: 16px;
+    }
 /*************** STOPKA KONIEC *****************/
 
 /*************** MODAL ************************/
@@ -791,8 +795,6 @@ background-color: #31d0aa;
 .checkbox-div {
     margin-bottom: 24px;
     display: flex;
-
-
 }
 
 .label-checkbox {
@@ -822,6 +824,7 @@ background-color: #31d0aa;
     fill: #f4f4fd;
 }
 
+
 .input-modal-div:focus-within {
     fill: #4d5ae5;
 }
@@ -847,7 +850,7 @@ background-color: #31d0aa;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
     margin-left: 85px;
-    box-shadow: 1px 6px rgba(46, 47, 66, 0.15), 0px 1px 1px rgba(46, 47, 66, 0.15), 0px 2px 1px rgba(46, 47, 66, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button-checkbox:hover {
