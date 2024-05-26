@@ -789,6 +789,9 @@ background-color: #31d0aa;
 
 .checkbox-div {
     margin-bottom: 24px;
+    display: flex;
+
+
 }
 
 .label-checkbox {
@@ -796,7 +799,9 @@ background-color: #31d0aa;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+ 
 }
+
 
 .span-checkbox {
     width: 16px;
@@ -840,6 +845,16 @@ background-color: #31d0aa;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
+    margin-left: 85px;
+    box-shadow: 1px 6px rgba(46, 47, 66, 0.15), 0px 1px 1px rgba(46, 47, 66, 0.15), 0px 2px 1px rgba(46, 47, 66, 0.15);
+}
+
+.button-checkbox:hover {
+    background-color: #404bbf;
+}
+
+.button-checkbox:focus {
+    background-color: #404bbf;
 }
 
 /*************** MODAL KONIEC *****************/
