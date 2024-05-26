@@ -734,8 +734,7 @@ background-color: #31d0aa;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    width: 12px;
-    height: 12px;
+
 }
 
 .input-modal-div:focus .icon-label {
@@ -756,7 +755,8 @@ background-color: #31d0aa;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    width: 12px;
+    height: 12px;
 }
 
 .icon-label:focus {
