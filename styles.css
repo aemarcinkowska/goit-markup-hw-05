@@ -795,6 +795,7 @@ input::placeholder {
 .checkbox-div {
     margin-bottom: 24px;
     display: flex;
+
 }
 
 .label-checkbox {
@@ -816,6 +817,7 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .checkbox-input:checked + .label-checkbox .span-checkbox {
