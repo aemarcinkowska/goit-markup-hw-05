@@ -597,9 +597,10 @@ background-color: #31d0aa;
     background-color: #31d0aa;
     }
 
-.form-footer {
-    display: flex;
-    gap: 24px;
+    .form-footer {
+       display: flex;
+          gap: 24px;
+
 }
      
     .input-footer {
